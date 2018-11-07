@@ -88,8 +88,8 @@ Below values are pre-set as default values. It means, you can put even nothing i
       recordProgram : 'arecord',  // Defaults to 'arecord' - also supports 'rec' and 'sox'
       device        : null        // recording device (e.g.: 'plughw:1')
     },
-    autostart: true              // if 'false', this module will wait for 'HOTWORD_RESUME' notification to start hotwords detection at the beginning.
-    autorestart: false          // You can set this 'true' when you want this module to go back to listening mode automatically again after hotword is detected. But use this carefully when your other modules are using microphone or speaker.
+    autostart: true,              // if 'false', this module will wait for 'HOTWORD_RESUME' notification to start hotwords detection at the beginning.
+    autorestart: false,          // You can set this 'true' when you want this module to go back to listening mode automatically again after hotword is detected. But use this carefully when your other modules are using microphone or speaker.
 
     // customizable notification trigger
     notifications: {
